@@ -1,0 +1,32 @@
+services:
+  - type: web
+    name: pump-inspection-line
+    runtime: node
+    plan: free
+    region: singapore
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: LIFF_ID
+        value: 2012417401-SxDqK7Tt
+      - key: LINE_LOGIN_CHANNEL_ID
+        value: "2012417401"
+      - key: LINE_CHANNEL_ACCESS_TOKEN
+        sync: false
+      - key: LINE_CHANNEL_SECRET
+        sync: false
+      - key: LINE_NOTIFY_TO
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: SUPABASE_BUCKET
+        value: photos
+      - key: ADMIN_KEY
+        sync: false
+      - key: CRON_SECRET
+        sync: false
+      - key: STATION_NAME
+        value: ปั๊มสาขาตัวอย่าง

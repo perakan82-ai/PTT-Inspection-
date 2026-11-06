@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>ประเมินมาตรฐานปั๊ม</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script charset="utf-8" src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    body { font-family: 'Sarabun', sans-serif; -webkit-tap-highlight-color: transparent; }
+    .safe-bottom { padding-bottom: calc(1rem + env(safe-area-inset-bottom)); }
+  </style>
+</head>
+<body class="bg-gray-100 min-h-screen">
+  <!-- Header -->
+  <header class="bg-[#06C755] text-white px-4 pt-4 pb-3 sticky top-0 z-30 shadow">
+    <div class="flex items-center justify-between">
+      <div>
+        <h1 class="text-lg font-bold leading-tight">ประเมินมาตรฐานปั๊ม</h1>
+        <p id="station" class="text-xs opacity-90"></p>
+      </div>
+      <div id="user" class="flex items-center gap-2 text-xs"></div>
+    </div>
+    <!-- Stepper -->
+    <div id="stepper" class="hidden mt-3 grid grid-cols-3 gap-1 text-[11px] text-center">
+      <div data-step="1" class="step rounded-full py-1 bg-white/25">1. เลือกกะ</div>
+      <div data-step="2" class="step rounded-full py-1 bg-white/25">2. พนักงาน</div>
+      <div data-step="3" class="step rounded-full py-1 bg-white/25">3. พื้นที่</div>
+    </div>
+  </header>
+
+  <main id="app" class="max-w-lg mx-auto p-4 pb-32">
+    <div class="flex flex-col items-center justify-center py-24 text-gray-500">
+      <div class="w-10 h-10 border-4 border-[#06C755] border-t-transparent rounded-full animate-spin"></div>
+      <p class="mt-4">กำลังโหลด...</p>
+    </div>
+  </main>
+
+  <!-- Bottom action bar -->
+  <div id="actionbar" class="hidden fixed bottom-0 inset-x-0 bg-white border-t shadow-lg safe-bottom pt-3 px-4 z-30">
+    <div class="max-w-lg mx-auto flex gap-3" id="actionbar-inner"></div>
+  </div>
+
+  <!-- Saving overlay -->
+  <div id="overlay" class="hidden fixed inset-0 bg-black/50 z-40 flex items-center justify-center">
+    <div class="bg-white rounded-2xl px-8 py-6 text-center">
+      <div class="w-10 h-10 mx-auto border-4 border-[#06C755] border-t-transparent rounded-full animate-spin"></div>
+      <p class="mt-3 font-semibold">กำลังบันทึกข้อมูล...</p>
+      <p class="text-xs text-gray-500 mt-1">กรุณาอย่าปิดหน้านี้</p>
+    </div>
+  </div>
+
+  <script src="/common.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

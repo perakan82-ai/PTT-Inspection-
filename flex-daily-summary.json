@@ -1,0 +1,595 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "size": "mega",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "backgroundColor": "#E53935",
+        "paddingAll": "16px",
+        "contents": [
+          {
+            "type": "text",
+            "text": "📊 สรุปผลประเมินรายวัน",
+            "wrap": true,
+            "size": "lg",
+            "color": "#FFFFFF",
+            "weight": "bold"
+          },
+          {
+            "type": "text",
+            "text": "สถานีบริการน้ำมัน • วันศุกร์ที่ 6 พฤศจิกายน พ.ศ. 2569",
+            "wrap": true,
+            "size": "xs",
+            "color": "#FFFFFF",
+            "margin": "sm"
+          }
+        ]
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "xs",
+            "paddingAll": "6px",
+            "cornerRadius": "4px",
+            "backgroundColor": "#F2F2F2",
+            "contents": [
+              {
+                "type": "text",
+                "text": "กะ",
+                "wrap": true,
+                "size": "xs",
+                "color": "#1F1F1F",
+                "flex": 2,
+                "align": "start",
+                "weight": "bold"
+              },
+              {
+                "type": "text",
+                "text": "สถานะ",
+                "wrap": true,
+                "size": "xs",
+                "color": "#1F1F1F",
+                "flex": 3,
+                "align": "center",
+                "weight": "bold"
+              },
+              {
+                "type": "text",
+                "text": "PASS",
+                "wrap": true,
+                "size": "xs",
+                "color": "#1F1F1F",
+                "flex": 2,
+                "align": "center",
+                "weight": "bold"
+              },
+              {
+                "type": "text",
+                "text": "FAIL",
+                "wrap": true,
+                "size": "xs",
+                "color": "#1F1F1F",
+                "flex": 2,
+                "align": "center",
+                "weight": "bold"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "xs",
+            "paddingAll": "6px",
+            "cornerRadius": "4px",
+            "contents": [
+              {
+                "type": "text",
+                "text": "กะเช้า",
+                "wrap": true,
+                "size": "xs",
+                "color": "#1F1F1F",
+                "flex": 2,
+                "align": "start"
+              },
+              {
+                "type": "text",
+                "text": "ส่งแล้ว 08:10",
+                "wrap": true,
+                "size": "xs",
+                "color": "#1F1F1F",
+                "flex": 3,
+                "align": "center",
+                "weight": "regular"
+              },
+              {
+                "type": "text",
+                "text": "0",
+                "wrap": true,
+                "size": "xs",
+                "color": "#06C755",
+                "flex": 2,
+                "align": "center",
+                "weight": "bold"
+              },
+              {
+                "type": "text",
+                "text": "1",
+                "wrap": true,
+                "size": "xs",
+                "color": "#E53935",
+                "flex": 2,
+                "align": "center",
+                "weight": "bold"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "xs",
+            "paddingAll": "6px",
+            "cornerRadius": "4px",
+            "contents": [
+              {
+                "type": "text",
+                "text": "กะบ่าย",
+                "wrap": true,
+                "size": "xs",
+                "color": "#1F1F1F",
+                "flex": 2,
+                "align": "start"
+              },
+              {
+                "type": "text",
+                "text": "ส่งแล้ว 15:10",
+                "wrap": true,
+                "size": "xs",
+                "color": "#1F1F1F",
+                "flex": 3,
+                "align": "center",
+                "weight": "regular"
+              },
+              {
+                "type": "text",
+                "text": "1",
+                "wrap": true,
+                "size": "xs",
+                "color": "#06C755",
+                "flex": 2,
+                "align": "center",
+                "weight": "bold"
+              },
+              {
+                "type": "text",
+                "text": "0",
+                "wrap": true,
+                "size": "xs",
+                "color": "#8C8C8C",
+                "flex": 2,
+                "align": "center",
+                "weight": "bold"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "xs",
+            "paddingAll": "6px",
+            "cornerRadius": "4px",
+            "contents": [
+              {
+                "type": "text",
+                "text": "กะดึก",
+                "wrap": true,
+                "size": "xs",
+                "color": "#1F1F1F",
+                "flex": 2,
+                "align": "start"
+              },
+              {
+                "type": "text",
+                "text": "⏳ ยังไม่ส่ง",
+                "wrap": true,
+                "size": "xs",
+                "color": "#F59E0B",
+                "flex": 3,
+                "align": "center",
+                "weight": "bold"
+              },
+              {
+                "type": "text",
+                "text": "0",
+                "wrap": true,
+                "size": "xs",
+                "color": "#06C755",
+                "flex": 2,
+                "align": "center",
+                "weight": "bold"
+              },
+              {
+                "type": "text",
+                "text": "0",
+                "wrap": true,
+                "size": "xs",
+                "color": "#8C8C8C",
+                "flex": 2,
+                "align": "center",
+                "weight": "bold"
+              }
+            ]
+          },
+          {
+            "type": "separator",
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "ประเมินแล้ว",
+                "wrap": true,
+                "size": "sm",
+                "color": "#8C8C8C",
+                "flex": 4
+              },
+              {
+                "type": "text",
+                "text": "3/5 คน",
+                "wrap": true,
+                "size": "sm",
+                "color": "#F59E0B",
+                "flex": 6,
+                "weight": "bold"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "ยังไม่ได้ประเมิน",
+                "wrap": true,
+                "size": "sm",
+                "color": "#8C8C8C",
+                "flex": 4
+              },
+              {
+                "type": "text",
+                "text": "2 คน",
+                "wrap": true,
+                "size": "sm",
+                "color": "#F59E0B",
+                "flex": 6,
+                "weight": "bold"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "พนักงานไม่ผ่าน",
+                "wrap": true,
+                "size": "sm",
+                "color": "#8C8C8C",
+                "flex": 4
+              },
+              {
+                "type": "text",
+                "text": "1 คน",
+                "wrap": true,
+                "size": "sm",
+                "color": "#E53935",
+                "flex": 6,
+                "weight": "bold"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "mega",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "backgroundColor": "#F59E0B",
+        "paddingAll": "16px",
+        "contents": [
+          {
+            "type": "text",
+            "text": "⏳ ยังไม่ได้ประเมิน (2 คน)",
+            "wrap": true,
+            "size": "lg",
+            "color": "#FFFFFF",
+            "weight": "bold"
+          },
+          {
+            "type": "text",
+            "text": "วันศุกร์ที่ 6 พฤศจิกายน พ.ศ. 2569",
+            "wrap": true,
+            "size": "xs",
+            "color": "#FFFFFF",
+            "margin": "sm"
+          }
+        ]
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "xs",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "xs",
+            "paddingAll": "6px",
+            "cornerRadius": "4px",
+            "backgroundColor": "#FEF3C7",
+            "contents": [
+              {
+                "type": "text",
+                "text": "#",
+                "wrap": true,
+                "size": "xs",
+                "color": "#1F1F1F",
+                "flex": 1,
+                "align": "center",
+                "weight": "bold"
+              },
+              {
+                "type": "text",
+                "text": "ชื่อ",
+                "wrap": true,
+                "size": "xs",
+                "color": "#1F1F1F",
+                "flex": 6,
+                "align": "start",
+                "weight": "bold"
+              },
+              {
+                "type": "text",
+                "text": "ตำแหน่ง",
+                "wrap": true,
+                "size": "xs",
+                "color": "#1F1F1F",
+                "flex": 4,
+                "align": "start",
+                "weight": "bold"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "xs",
+            "paddingAll": "6px",
+            "cornerRadius": "4px",
+            "contents": [
+              {
+                "type": "text",
+                "text": "1",
+                "wrap": true,
+                "size": "xs",
+                "color": "#8C8C8C",
+                "flex": 1,
+                "align": "center"
+              },
+              {
+                "type": "text",
+                "text": "ปิติ ขยัน (ติ)",
+                "wrap": true,
+                "size": "xs",
+                "color": "#1F1F1F",
+                "flex": 6,
+                "align": "start"
+              },
+              {
+                "type": "text",
+                "text": "แคชเชียร์",
+                "wrap": true,
+                "size": "xs",
+                "color": "#8C8C8C",
+                "flex": 4,
+                "align": "start"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "xs",
+            "paddingAll": "6px",
+            "cornerRadius": "4px",
+            "backgroundColor": "#FFFBEB",
+            "contents": [
+              {
+                "type": "text",
+                "text": "2",
+                "wrap": true,
+                "size": "xs",
+                "color": "#8C8C8C",
+                "flex": 1,
+                "align": "center"
+              },
+              {
+                "type": "text",
+                "text": "ชูใจ",
+                "wrap": true,
+                "size": "xs",
+                "color": "#1F1F1F",
+                "flex": 6,
+                "align": "start"
+              },
+              {
+                "type": "text",
+                "text": "-",
+                "wrap": true,
+                "size": "xs",
+                "color": "#8C8C8C",
+                "flex": 4,
+                "align": "start"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "mega",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "backgroundColor": "#E53935",
+        "paddingAll": "16px",
+        "contents": [
+          {
+            "type": "text",
+            "text": "❌ พนักงานไม่ผ่าน (1 คน)",
+            "wrap": true,
+            "size": "lg",
+            "color": "#FFFFFF",
+            "weight": "bold"
+          },
+          {
+            "type": "text",
+            "text": "เช้า / บ่าย / ดึก",
+            "wrap": true,
+            "size": "xs",
+            "color": "#FFFFFF",
+            "margin": "sm"
+          }
+        ]
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "xs",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "xs",
+            "paddingAll": "6px",
+            "cornerRadius": "4px",
+            "backgroundColor": "#FDECEA",
+            "contents": [
+              {
+                "type": "text",
+                "text": "ชื่อ",
+                "wrap": true,
+                "size": "xs",
+                "color": "#1F1F1F",
+                "flex": 5,
+                "align": "start",
+                "weight": "bold"
+              },
+              {
+                "type": "text",
+                "text": "เช้า",
+                "wrap": true,
+                "size": "xs",
+                "color": "#1F1F1F",
+                "flex": 2,
+                "align": "center",
+                "weight": "bold"
+              },
+              {
+                "type": "text",
+                "text": "บ่าย",
+                "wrap": true,
+                "size": "xs",
+                "color": "#1F1F1F",
+                "flex": 2,
+                "align": "center",
+                "weight": "bold"
+              },
+              {
+                "type": "text",
+                "text": "ดึก",
+                "wrap": true,
+                "size": "xs",
+                "color": "#1F1F1F",
+                "flex": 2,
+                "align": "center",
+                "weight": "bold"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "xs",
+            "paddingAll": "6px",
+            "cornerRadius": "4px",
+            "contents": [
+              {
+                "type": "text",
+                "text": "ชาย",
+                "wrap": true,
+                "size": "xs",
+                "color": "#1F1F1F",
+                "flex": 5,
+                "align": "start"
+              },
+              {
+                "type": "text",
+                "text": "❌",
+                "wrap": true,
+                "size": "xs",
+                "color": "#1F1F1F",
+                "flex": 2,
+                "align": "center"
+              },
+              {
+                "type": "text",
+                "text": "—",
+                "wrap": true,
+                "size": "xs",
+                "color": "#1F1F1F",
+                "flex": 2,
+                "align": "center"
+              },
+              {
+                "type": "text",
+                "text": "—",
+                "wrap": true,
+                "size": "xs",
+                "color": "#1F1F1F",
+                "flex": 2,
+                "align": "center"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "   ไม่ผ่าน: หมวก",
+            "wrap": true,
+            "size": "xxs",
+            "color": "#E53935"
+          }
+        ]
+      }
+    }
+  ]
+}

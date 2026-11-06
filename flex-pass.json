@@ -1,0 +1,267 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "size": "mega",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "backgroundColor": "#06C755",
+        "paddingAll": "16px",
+        "contents": [
+          {
+            "type": "text",
+            "text": "✅ PASS 100%",
+            "wrap": true,
+            "size": "lg",
+            "color": "#FFFFFF",
+            "weight": "bold"
+          },
+          {
+            "type": "text",
+            "text": "กะนี้ผ่านเกณฑ์มาตรฐานครบทุกข้อ",
+            "wrap": true,
+            "size": "xs",
+            "color": "#FFFFFF",
+            "margin": "sm"
+          }
+        ]
+      },
+      "hero": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1545262810-77515befe149?w=800",
+        "size": "full",
+        "aspectRatio": "4:3",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "backgroundColor": "#E8F9EE",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "สถานี",
+                "wrap": true,
+                "size": "sm",
+                "color": "#8C8C8C",
+                "flex": 4
+              },
+              {
+                "type": "text",
+                "text": "ปั๊มสาขาตัวอย่าง",
+                "wrap": true,
+                "size": "sm",
+                "color": "#1F1F1F",
+                "flex": 6,
+                "weight": "bold"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "กะ",
+                "wrap": true,
+                "size": "sm",
+                "color": "#8C8C8C",
+                "flex": 4
+              },
+              {
+                "type": "text",
+                "text": "กะเช้า",
+                "wrap": true,
+                "size": "sm",
+                "color": "#1F1F1F",
+                "flex": 6,
+                "weight": "bold"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "วันเวลา",
+                "wrap": true,
+                "size": "sm",
+                "color": "#8C8C8C",
+                "flex": 4
+              },
+              {
+                "type": "text",
+                "text": "6 พ.ย. 2569 08:15",
+                "wrap": true,
+                "size": "sm",
+                "color": "#1F1F1F",
+                "flex": 6,
+                "weight": "bold"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "ผู้ประเมิน",
+                "wrap": true,
+                "size": "sm",
+                "color": "#8C8C8C",
+                "flex": 4
+              },
+              {
+                "type": "text",
+                "text": "คุณประเมิน (ผู้จัดการกะ)",
+                "wrap": true,
+                "size": "sm",
+                "color": "#1F1F1F",
+                "flex": 6,
+                "weight": "bold"
+              }
+            ]
+          },
+          {
+            "type": "separator",
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "พนักงาน",
+                "wrap": true,
+                "size": "sm",
+                "color": "#8C8C8C",
+                "flex": 4
+              },
+              {
+                "type": "text",
+                "text": "ผ่าน 1/1 คน",
+                "wrap": true,
+                "size": "sm",
+                "color": "#06C755",
+                "flex": 6,
+                "weight": "bold"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "พื้นที่",
+                "wrap": true,
+                "size": "sm",
+                "color": "#8C8C8C",
+                "flex": 4
+              },
+              {
+                "type": "text",
+                "text": "100/100",
+                "wrap": true,
+                "size": "sm",
+                "color": "#06C755",
+                "flex": 6,
+                "weight": "bold"
+              }
+            ]
+          },
+          {
+            "type": "separator",
+            "margin": "md"
+          },
+          {
+            "type": "text",
+            "text": "ทุกคนแต่งกายถูกต้อง 100% และพื้นที่ผ่านเกณฑ์ครบทุกข้อ",
+            "wrap": true,
+            "size": "sm",
+            "color": "#06C755",
+            "margin": "md",
+            "weight": "bold"
+          },
+          {
+            "type": "text",
+            "text": "รายชื่อ: สมหญิง รักงาน (หญิง)",
+            "wrap": true,
+            "size": "xs",
+            "color": "#8C8C8C",
+            "margin": "sm"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "mega",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "backgroundColor": "#06C755",
+        "paddingAll": "16px",
+        "contents": [
+          {
+            "type": "text",
+            "text": "✅ สมหญิง รักงาน (หญิง)",
+            "wrap": true,
+            "size": "lg",
+            "color": "#FFFFFF",
+            "weight": "bold"
+          },
+          {
+            "type": "text",
+            "text": "แคชเชียร์ • 100/100",
+            "wrap": true,
+            "size": "xs",
+            "color": "#FFFFFF",
+            "margin": "sm"
+          }
+        ]
+      },
+      "hero": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1545262810-77515befe149?w=800",
+        "size": "full",
+        "aspectRatio": "4:3",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "backgroundColor": "#E8F9EE",
+        "contents": [
+          {
+            "type": "text",
+            "text": "แต่งกายถูกต้องครบ 6 รายการ",
+            "wrap": true,
+            "size": "sm",
+            "color": "#06C755",
+            "weight": "bold"
+          }
+        ]
+      }
+    }
+  ]
+}

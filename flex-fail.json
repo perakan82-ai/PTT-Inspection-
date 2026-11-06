@@ -1,0 +1,445 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "size": "mega",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "backgroundColor": "#E53935",
+        "paddingAll": "16px",
+        "contents": [
+          {
+            "type": "text",
+            "text": "🚨 FAIL ALERT",
+            "wrap": true,
+            "size": "lg",
+            "color": "#FFFFFF",
+            "weight": "bold"
+          },
+          {
+            "type": "text",
+            "text": "พบรายการไม่ผ่านเกณฑ์มาตรฐาน",
+            "wrap": true,
+            "size": "xs",
+            "color": "#FFFFFF",
+            "margin": "sm"
+          }
+        ]
+      },
+      "hero": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1545262810-77515befe149?w=800",
+        "size": "full",
+        "aspectRatio": "4:3",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "backgroundColor": "#FFFFFF",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "สถานี",
+                "wrap": true,
+                "size": "sm",
+                "color": "#8C8C8C",
+                "flex": 4
+              },
+              {
+                "type": "text",
+                "text": "ปั๊มสาขาตัวอย่าง",
+                "wrap": true,
+                "size": "sm",
+                "color": "#1F1F1F",
+                "flex": 6,
+                "weight": "bold"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "กะ",
+                "wrap": true,
+                "size": "sm",
+                "color": "#8C8C8C",
+                "flex": 4
+              },
+              {
+                "type": "text",
+                "text": "กะเช้า",
+                "wrap": true,
+                "size": "sm",
+                "color": "#1F1F1F",
+                "flex": 6,
+                "weight": "bold"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "วันเวลา",
+                "wrap": true,
+                "size": "sm",
+                "color": "#8C8C8C",
+                "flex": 4
+              },
+              {
+                "type": "text",
+                "text": "6 พ.ย. 2569 08:15",
+                "wrap": true,
+                "size": "sm",
+                "color": "#1F1F1F",
+                "flex": 6,
+                "weight": "bold"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "ผู้ประเมิน",
+                "wrap": true,
+                "size": "sm",
+                "color": "#8C8C8C",
+                "flex": 4
+              },
+              {
+                "type": "text",
+                "text": "คุณประเมิน (ผู้จัดการกะ)",
+                "wrap": true,
+                "size": "sm",
+                "color": "#1F1F1F",
+                "flex": 6,
+                "weight": "bold"
+              }
+            ]
+          },
+          {
+            "type": "separator",
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "พนักงาน",
+                "wrap": true,
+                "size": "sm",
+                "color": "#8C8C8C",
+                "flex": 4
+              },
+              {
+                "type": "text",
+                "text": "ผ่าน 1/2 คน",
+                "wrap": true,
+                "size": "sm",
+                "color": "#E53935",
+                "flex": 6,
+                "weight": "bold"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "พื้นที่",
+                "wrap": true,
+                "size": "sm",
+                "color": "#8C8C8C",
+                "flex": 4
+              },
+              {
+                "type": "text",
+                "text": "70/100",
+                "wrap": true,
+                "size": "sm",
+                "color": "#E53935",
+                "flex": 6,
+                "weight": "bold"
+              }
+            ]
+          },
+          {
+            "type": "separator",
+            "margin": "md"
+          },
+          {
+            "type": "text",
+            "text": "จุดที่ไม่ผ่าน",
+            "wrap": true,
+            "size": "sm",
+            "color": "#E53935",
+            "weight": "bold",
+            "margin": "md"
+          },
+          {
+            "type": "text",
+            "text": "• สมชาย ใจดี (ชาย): หมวก, ป้ายชื่อ",
+            "wrap": true,
+            "size": "xs",
+            "color": "#E53935",
+            "margin": "xs"
+          },
+          {
+            "type": "text",
+            "text": "• พื้นที่: ไม่มีของส่วนตัววางในพื้นที่",
+            "wrap": true,
+            "size": "xs",
+            "color": "#E53935",
+            "margin": "xs"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "mega",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "backgroundColor": "#E53935",
+        "paddingAll": "16px",
+        "contents": [
+          {
+            "type": "text",
+            "text": "❌ พื้นที่ไม่ผ่านเกณฑ์",
+            "wrap": true,
+            "size": "lg",
+            "color": "#FFFFFF",
+            "weight": "bold"
+          },
+          {
+            "type": "text",
+            "text": "คะแนน 70/100",
+            "wrap": true,
+            "size": "xs",
+            "color": "#FFFFFF",
+            "margin": "sm"
+          }
+        ]
+      },
+      "hero": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1545262810-77515befe149?w=800",
+        "size": "full",
+        "aspectRatio": "4:3",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "backgroundColor": "#FDECEA",
+        "contents": [
+          {
+            "type": "text",
+            "text": "📷 รูปหลักฐานพื้นที่",
+            "wrap": true,
+            "size": "xs",
+            "color": "#8C8C8C"
+          },
+          {
+            "type": "text",
+            "text": "รายการที่ไม่ผ่าน",
+            "wrap": true,
+            "size": "sm",
+            "color": "#E53935",
+            "weight": "bold",
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "✗",
+                "wrap": true,
+                "size": "sm",
+                "color": "#E53935",
+                "flex": 1,
+                "weight": "bold"
+              },
+              {
+                "type": "text",
+                "text": "ไม่มีของส่วนตัววางในพื้นที่",
+                "wrap": true,
+                "size": "sm",
+                "color": "#E53935",
+                "flex": 7
+              },
+              {
+                "type": "text",
+                "text": "-30",
+                "wrap": true,
+                "size": "sm",
+                "color": "#E53935",
+                "flex": 2,
+                "align": "end",
+                "weight": "bold"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "mega",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "backgroundColor": "#E53935",
+        "paddingAll": "16px",
+        "contents": [
+          {
+            "type": "text",
+            "text": "❌ สมชาย ใจดี (ชาย)",
+            "wrap": true,
+            "size": "lg",
+            "color": "#FFFFFF",
+            "weight": "bold"
+          },
+          {
+            "type": "text",
+            "text": "พนักงานเติมน้ำมัน • คะแนน 70/100",
+            "wrap": true,
+            "size": "xs",
+            "color": "#FFFFFF",
+            "margin": "sm"
+          }
+        ]
+      },
+      "hero": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1545262810-77515befe149?w=800",
+        "size": "full",
+        "aspectRatio": "4:3",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "📷 รูปหลักฐานจุดที่ผิด",
+            "wrap": true,
+            "size": "xs",
+            "color": "#8C8C8C"
+          },
+          {
+            "type": "text",
+            "text": "รายการที่ไม่ผ่าน",
+            "wrap": true,
+            "size": "sm",
+            "color": "#E53935",
+            "weight": "bold",
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "✗",
+                "wrap": true,
+                "size": "sm",
+                "color": "#E53935",
+                "flex": 1,
+                "weight": "bold"
+              },
+              {
+                "type": "text",
+                "text": "หมวก",
+                "wrap": true,
+                "size": "sm",
+                "color": "#E53935",
+                "flex": 7
+              },
+              {
+                "type": "text",
+                "text": "-15",
+                "wrap": true,
+                "size": "sm",
+                "color": "#E53935",
+                "flex": 2,
+                "align": "end",
+                "weight": "bold"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "✗",
+                "wrap": true,
+                "size": "sm",
+                "color": "#E53935",
+                "flex": 1,
+                "weight": "bold"
+              },
+              {
+                "type": "text",
+                "text": "ป้ายชื่อ",
+                "wrap": true,
+                "size": "sm",
+                "color": "#E53935",
+                "flex": 7
+              },
+              {
+                "type": "text",
+                "text": "-15",
+                "wrap": true,
+                "size": "sm",
+                "color": "#E53935",
+                "flex": 2,
+                "align": "end",
+                "weight": "bold"
+              }
+            ]
+          }
+        ],
+        "backgroundColor": "#FDECEA"
+      }
+    }
+  ]
+}
